@@ -1,0 +1,127 @@
+--- diagonal.vmf	2015-09-22 02:07:05.685231200 +0200
++++ diagonal_ar.vmf	2015-09-22 02:59:41.182571300 +0200
+@@ -10818,13 +10818,122 @@
+ 		"logicalpos" "[0 500]"
+ 	}
+ }
++entity
++{
++	"id" "5912"
++	"classname" "trigger_once"
++	"origin" "0 0 680"
++	"spawnflags" "1"
++	"StartDisabled" "0"
++	connections
++	{
++		"OnTrigger" "autorecord,Command,record autorecord,0,-1"
++	}
++	solid
++	{
++		"id" "5913"
++		side
++		{
++			"id" "1842"
++			"plane" "(-16 -16 720) (-16 16 720) (16 16 720)"
++			"material" "TOOLS/TOOLSTRIGGER"
++			"uaxis" "[1 0 0 0] 0.25"
++			"vaxis" "[0 -1 0 0] 0.25"
++			"rotation" "0"
++			"lightmapscale" "16"
++			"smoothing_groups" "0"
++		}
++		side
++		{
++			"id" "1841"
++			"plane" "(-16 16 640) (-16 -16 640) (16 -16 640)"
++			"material" "TOOLS/TOOLSTRIGGER"
++			"uaxis" "[1 0 0 0] 0.25"
++			"vaxis" "[0 -1 0 0] 0.25"
++			"rotation" "0"
++			"lightmapscale" "16"
++			"smoothing_groups" "0"
++		}
++		side
++		{
++			"id" "1840"
++			"plane" "(-16 -16 640) (-16 16 640) (-16 16 720)"
++			"material" "TOOLS/TOOLSTRIGGER"
++			"uaxis" "[0 1 0 0] 0.25"
++			"vaxis" "[0 0 -1 0] 0.25"
++			"rotation" "0"
++			"lightmapscale" "16"
++			"smoothing_groups" "0"
++		}
++		side
++		{
++			"id" "1839"
++			"plane" "(16 16 640) (16 -16 640) (16 -16 720)"
++			"material" "TOOLS/TOOLSTRIGGER"
++			"uaxis" "[0 1 0 0] 0.25"
++			"vaxis" "[0 0 -1 0] 0.25"
++			"rotation" "0"
++			"lightmapscale" "16"
++			"smoothing_groups" "0"
++		}
++		side
++		{
++			"id" "1838"
++			"plane" "(-16 16 640) (16 16 640) (16 16 720)"
++			"material" "TOOLS/TOOLSTRIGGER"
++			"uaxis" "[1 0 0 0] 0.25"
++			"vaxis" "[0 0 -1 0] 0.25"
++			"rotation" "0"
++			"lightmapscale" "16"
++			"smoothing_groups" "0"
++		}
++		side
++		{
++			"id" "1837"
++			"plane" "(16 -16 640) (-16 -16 640) (-16 -16 720)"
++			"material" "TOOLS/TOOLSTRIGGER"
++			"uaxis" "[1 0 0 0] 0.25"
++			"vaxis" "[0 0 -1 0] 0.25"
++			"rotation" "0"
++			"lightmapscale" "16"
++			"smoothing_groups" "0"
++		}
++		editor
++		{
++			"color" "220 30 220"
++			"visgroupshown" "1"
++			"visgroupautoshown" "1"
++		}
++	}
++	editor
++	{
++		"color" "220 30 220"
++		"visgroupshown" "1"
++		"visgroupautoshown" "1"
++		"logicalpos" "[0 500]"
++	}
++}
++entity
++{
++	"id" "6055"
++	"classname" "point_clientcommand"
++	"targetname" "autorecord"
++	"origin" "40 0 688"
++	editor
++	{
++		"color" "220 30 220"
++		"visgroupshown" "1"
++		"visgroupautoshown" "1"
++		"logicalpos" "[0 500]"
++	}
++}
+ cameras
+ {
+ 	"activecamera" "0"
+ 	camera
+ 	{
+-		"position" "[-263.615 924.628 1172.05]"
+-		"look" "[-263.367 923.682 1171.79]"
++		"position" "[-0.3004 -142.533 728.87]"
++		"look" "[-0.0809613 -141.544 728.842]"
+ 	}
+ }
+ cordon

@@ -1,0 +1,162 @@
+--- propulsiongelisforlosers.vmf	2015-09-21 06:26:50.616327700 +0200
++++ propulsiongelisforlosers_ar.vmf	2015-09-21 06:32:32.306147500 +0200
+@@ -15885,20 +15885,6 @@
+ }
+ entity
+ {
+-	"id" "7856"
+-	"classname" "info_player_start"
+-	"angles" "0 0 0"
+-	"origin" "-14208 -448 1456"
+-	editor
+-	{
+-		"color" "0 255 0"
+-		"visgroupshown" "1"
+-		"visgroupautoshown" "1"
+-		"logicalpos" "[0 15000]"
+-	}
+-}
+-entity
+-{
+ 	"id" "8207"
+ 	"classname" "light"
+ 	"_constant_attn" "0"
+@@ -20898,13 +20884,136 @@
+ 		"logicalpos" "[0 0]"
+ 	}
+ }
++entity
++{
++	"id" "24951"
++	"classname" "info_player_start"
++	"angles" "0 0 0"
++	"origin" "-14209 -448 1440"
++	editor
++	{
++		"color" "0 255 0"
++		"visgroupshown" "1"
++		"visgroupautoshown" "1"
++		"logicalpos" "[0 15000]"
++	}
++}
++entity
++{
++	"id" "24953"
++	"classname" "point_clientcommand"
++	"targetname" "autorecord"
++	"origin" "-14209 -480 1504"
++	editor
++	{
++		"color" "220 30 220"
++		"visgroupshown" "1"
++		"visgroupautoshown" "1"
++		"logicalpos" "[0 500]"
++	}
++}
++entity
++{
++	"id" "24955"
++	"classname" "trigger_once"
++	"origin" "-14209 -448 1472"
++	"spawnflags" "1"
++	"StartDisabled" "0"
++	connections
++	{
++		"OnTrigger" "autorecord,Command,record autorecord,0,-1"
++	}
++	solid
++	{
++		"id" "24956"
++		side
++		{
++			"id" "3034"
++			"plane" "(-14225 -464 1520) (-14225 -432 1520) (-14193 -432 1520)"
++			"material" "TOOLS/TOOLSTRIGGER"
++			"uaxis" "[1 0 0 -60] 0.25"
++			"vaxis" "[0 -1 0 0] 0.25"
++			"rotation" "0"
++			"lightmapscale" "16"
++			"smoothing_groups" "0"
++		}
++		side
++		{
++			"id" "3033"
++			"plane" "(-14225 -432 1424) (-14225 -464 1424) (-14193 -464 1424)"
++			"material" "TOOLS/TOOLSTRIGGER"
++			"uaxis" "[1 0 0 -60] 0.25"
++			"vaxis" "[0 -1 0 0] 0.25"
++			"rotation" "0"
++			"lightmapscale" "16"
++			"smoothing_groups" "0"
++		}
++		side
++		{
++			"id" "3032"
++			"plane" "(-14225 -464 1424) (-14225 -432 1424) (-14225 -432 1520)"
++			"material" "TOOLS/TOOLSTRIGGER"
++			"uaxis" "[0 1 0 0] 0.25"
++			"vaxis" "[0 0 -1 0] 0.25"
++			"rotation" "0"
++			"lightmapscale" "16"
++			"smoothing_groups" "0"
++		}
++		side
++		{
++			"id" "3031"
++			"plane" "(-14193 -432 1424) (-14193 -464 1424) (-14193 -464 1520)"
++			"material" "TOOLS/TOOLSTRIGGER"
++			"uaxis" "[0 1 0 0] 0.25"
++			"vaxis" "[0 0 -1 0] 0.25"
++			"rotation" "0"
++			"lightmapscale" "16"
++			"smoothing_groups" "0"
++		}
++		side
++		{
++			"id" "3030"
++			"plane" "(-14225 -432 1424) (-14193 -432 1424) (-14193 -432 1520)"
++			"material" "TOOLS/TOOLSTRIGGER"
++			"uaxis" "[1 0 0 -60] 0.25"
++			"vaxis" "[0 0 -1 0] 0.25"
++			"rotation" "0"
++			"lightmapscale" "16"
++			"smoothing_groups" "0"
++		}
++		side
++		{
++			"id" "3029"
++			"plane" "(-14193 -464 1424) (-14225 -464 1424) (-14225 -464 1520)"
++			"material" "TOOLS/TOOLSTRIGGER"
++			"uaxis" "[1 0 0 -60] 0.25"
++			"vaxis" "[0 0 -1 0] 0.25"
++			"rotation" "0"
++			"lightmapscale" "16"
++			"smoothing_groups" "0"
++		}
++		editor
++		{
++			"color" "220 30 220"
++			"visgroupshown" "1"
++			"visgroupautoshown" "1"
++		}
++	}
++	editor
++	{
++		"color" "220 30 220"
++		"visgroupshown" "1"
++		"visgroupautoshown" "1"
++		"logicalpos" "[0 500]"
++	}
++}
+ cameras
+ {
+ 	"activecamera" "0"
+ 	camera
+ 	{
+-		"position" "[11727.6 1783.18 607.811]"
+-		"look" "[11727.6 1782.15 607.858]"
++		"position" "[-14211.9 -710.938 1394.27]"
++		"look" "[-14211.8 -709.996 1394.66]"
+ 	}
+ }
+ cordon
