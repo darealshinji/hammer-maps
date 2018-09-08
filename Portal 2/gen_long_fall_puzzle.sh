@@ -111,9 +111,6 @@ cat <<EOF>> "$output"
 			"DoorInstanceID"		"2.000000"
 			"Enabled"		"0"
 		}
-EOF
-
-cat <<EOF>> "$output"
 	}
 	"Connections"
 	{
