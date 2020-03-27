@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "dm_krusty_krab/woodfloor007a_green"
+	"$bumpmap" "wood/woodfloor007a_normal"
+	"$surfaceprop" "wood"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 1
+	"$envmapsaturation" .7
+	"$envmaptint" "[ .72 .72 .72 ]"
+}

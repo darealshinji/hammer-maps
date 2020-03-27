@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	//"$basetexture" "signage/overlay_aperture_logo_worn"
+	"$basetexture" "dm_krusty_krab/overlay_aperture_logo_worn"
+	"$translucent" 1
+	"$decal" 1
+	//"$surfaceprop" "glass"
+	"$surfaceprop" "metal"
+	"%keywords" "portal"
+}
